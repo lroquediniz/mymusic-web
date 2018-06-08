@@ -12,6 +12,10 @@ const appRoutes: Routes = [
     path: 'musicas',
     component: MusicasComponent,
     data: { title: 'Contact List' }
+  },
+  { path: '',
+    redirectTo: '/musicas',
+    pathMatch: 'full'
   }
 ];
 
